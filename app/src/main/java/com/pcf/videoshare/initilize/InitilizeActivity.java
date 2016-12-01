@@ -15,6 +15,6 @@ public class InitilizeActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //TODO asdfasdfasdf
-        TextView tv=findViewById(R.id.tv);
+        TextView tv=(TextView)findViewById(R.id.tv);
     }
 }
