@@ -16,5 +16,6 @@ public class InitilizeActivity extends Activity {
         super.onCreate(savedInstanceState);
         //TODO asdfasdfasdf
         TextView tv=(TextView)findViewById(R.id.tv);
+        tv.setText("test!!!");
     }
 }
